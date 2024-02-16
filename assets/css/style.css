@@ -1830,3 +1830,22 @@ section {
   background-color: var(--green) !important;
   color: white;
 }
+
+.venue-pic{
+  height: auto;
+  width: -webkit-fill-available;
+}
+
+.venue-dis{
+  background-color: #7d8c7c3b;
+}
+
+.venue-lay-div{
+  background-color: #7d8c7c;
+   height: 100px; 
+   width: 100%;
+}
+
+.venue-lay-div img{
+  height: -webkit-fill-available;
+}
