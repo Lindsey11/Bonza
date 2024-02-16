@@ -1821,4 +1821,12 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+
+  
+
+}
+
+.btn-contact{
+  background-color: var(--green) !important;
+  color: white;
 }
