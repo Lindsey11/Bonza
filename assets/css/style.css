@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Joliet;
-  src: url(/assets/fonts/Joliet-Regular.otf);
+  src: url('../fonts/Joliet-Regular.otf');
 }
 
 body {
