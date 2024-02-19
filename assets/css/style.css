@@ -4,9 +4,14 @@
   --white: #ffffff;
 }
 
+@font-face {
+  font-family: Joliet;
+  src: url(/assets/fonts/Joliet-Regular.otf);
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "Jost", sans-serif;
+  color: #000000;
 }
 
 a {
@@ -25,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: Joliet;
 }
 
 /*--------------------------------------------------------------
