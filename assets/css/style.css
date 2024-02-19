@@ -390,8 +390,9 @@ h6 {
   width: 100%;
   height: 80vh;
   /* background: #7d8c7c; */
-  /* background-size: cover;
-  background: url('../img/cover.webp'); */
+  /* background-size: cover;*/
+  background-image: url('../img/cover.png');
+  background-size: cover;
 }
 
 #hero .container {
