@@ -4,10 +4,10 @@
   --white: #ffffff;
 }
 
-@font-face {
-  font-family: Joliet;
+/* @font-face {
+  font-family: Poppins;
   src: url('../fonts/Joliet-Regular.otf');
-}
+} */
 
 body {
   font-family: "Poppins";
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Joliet;
+  font-family: "Poppins";
 }
 
 /*--------------------------------------------------------------
@@ -1838,4 +1838,25 @@ section {
 
 .venue-lay-div img{
   height: -webkit-fill-available;
+}
+
+.hero-sqig-filter-white{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(100%) contrast(105%);
+}
+
+.hero-sqig-filter-green{
+  filter: brightness(0) saturate(100%) invert(55%) sepia(13%) saturate(332%) hue-rotate(68deg) brightness(95%) contrast(85%);
+  z-index: -1;
+  position: absolute;
+  margin-top: 30px;
+  width: -webkit-fill-available;
+
+}
+
+.layout-img{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(100%) contrast(105%);
+}
+
+.top-hr{
+  margin-top: 1px;
 }
