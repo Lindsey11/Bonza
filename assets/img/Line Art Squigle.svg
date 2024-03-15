@@ -5,11 +5,11 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#82876C;stroke-width:2;stroke-miterlimit:10;}
 	  @keyframes draw {
-        from {
-            stroke-dashoffset: 1000;
+       from {
+            stroke-dashoffset: 2500;
         }
         to {
-            stroke-dashoffset: 0;
+            stroke-dashoffset: 500;
         }
     }
     svg path {
