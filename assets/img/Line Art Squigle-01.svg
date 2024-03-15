@@ -15,6 +15,22 @@
 	 style="enable-background:new 0 0 841.89 595.28;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#82876C;stroke-width:2;stroke-miterlimit:10;}
+	 @keyframes draw {
+        from {
+            stroke-dashoffset: 1000;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    svg path {
+        stroke: #000; /* Color of the stroke */
+        stroke-width: 2; /* Width of the stroke */
+        stroke-dasharray: 1000; /* Adjust based on the longest path in your SVG */
+        stroke-dashoffset: 1000; /* Same as stroke-dasharray */
+        animation: draw 5s linear forwards; /* Adjust timing as needed */
+		animation-iteration-count: infinite;
+    }
 </style>
 <switch>
 	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">

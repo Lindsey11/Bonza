@@ -4,6 +4,22 @@
 	 viewBox="0 0 841.89 595.28" style="enable-background:new 0 0 841.89 595.28;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#82876C;stroke-width:2;stroke-miterlimit:10;}
+	  @keyframes draw {
+        from {
+            stroke-dashoffset: 1000;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    svg path {
+        stroke: #000; /* Color of the stroke */
+        stroke-width: 2; /* Width of the stroke */
+        stroke-dasharray: 1000; /* Adjust based on the longest path in your SVG */
+        stroke-dashoffset: 1000; /* Same as stroke-dasharray */
+        animation: draw 5s linear forwards; /* Adjust timing as needed */
+		animation-iteration-count: infinite;
+    }
 </style>
 <image style="overflow:visible;" width="736" height="1346" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
 FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
@@ -2112,4 +2128,5 @@ D//Z" transform="matrix(1 0 0 1 271.7355 -1482.2927)">
 <path class="st0" d="M863.06,562.78c0,0,101.96-308.43,328.82-189.47c0,0,214.96,114.23,313.9,28.13c0,0,38.52-49.47-34.74-89.5
 	c0,0-76.66-16.99-63.06,30.21c0,0,32.1,26.81,69.48-40.78c37.39-67.6,31.34-134.81,31.34-134.81s-13.59-140.48,101.58-51.36
 	c89.28,69.08,108,64.95,108,64.95"/>
+	
 </svg>
