@@ -1860,3 +1860,25 @@ section {
 .top-hr{
   margin-top: 1px;
 }
+
+
+.team-card {
+  border: none;
+  text-align: center;
+  border-radius: 20% 20% 20% 20%;
+  height: 400px;
+  padding: 15px;
+}
+.team-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.team-card .social-icons a {
+  margin: 0 5px;
+  color: white;
+  background-color: var(--green);
+  border-radius: 50%;
+  padding: 8px;
+}
